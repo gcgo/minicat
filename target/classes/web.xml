@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>gcgo</servlet-name>
+        <servlet-class>com.gcgo.server.MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>gcgo</servlet-name>
+        <url-pattern>/gcgo</url-pattern>
+    </servlet-mapping>
+</web-app>
