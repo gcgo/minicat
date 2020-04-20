@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app>
+    <servlet>
+        <servlet-name>demo2test</servlet-name>
+        <servlet-class>Demo2Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>demo2test</servlet-name>
+        <url-pattern>/demo2/demo2test</url-pattern>
+    </servlet-mapping>
+</web-app>

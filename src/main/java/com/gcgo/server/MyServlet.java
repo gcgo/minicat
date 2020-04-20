@@ -7,11 +7,6 @@ import java.io.IOException;
 public class MyServlet extends HttpServlet {
     @Override
     public void doGet(Request request, Response response) {
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         String content = "<h1>MyServlet get</h1>";
         try {
             response.output((HttpProtocolUtil.getHttpHeader200(content.getBytes().length) + content));
