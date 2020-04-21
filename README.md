@@ -25,9 +25,9 @@
    - localhost:8080/demo1/demo1test
    - localhost:8080/demo2/demo2test
 
-4. 运行效果及说明详见验证资料中的视频说明
+4. 运行效果及说明详见[验证资料](https://github.com/gcgo/minicat/tree/master/验证资料)中的视频说明
 
 ## 2简答题：
 
-地址：
+地址：[简答题]((https://github.com/gcgo/minicat/blob/master/Tomcat体系结构.pdf))
 
